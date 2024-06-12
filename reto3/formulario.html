@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulario</title>
+    <meta charset="utf-8">    
+    <meta name="autor" content="Santiago Bohorquez Alzate">
+    <meta name="description" content="Contiene el reto 3">
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <main class="main">
+    <section>
+    <h1>Formulario</h1>
+        <form method="POST">
+         
+    
+        <div class="text-input">
+            <label for="nombre"> 
+                Nombre completo:
+                <br>
+                <input type="text" id="nombre" placeholder="Ingresa tu Nombre" required>
+            </label>
+        </div>
+        <div>
+            <label for="email">
+                Email:
+                <br>
+                <input type="email" id="email" placeholder="Ingresa tu email"required><br>
+            </label><br>
+        </div>
+
+        <div>
+            <label for="direccion">
+                Direccion:
+                <br>
+                <input type="text" id="lbdireccion" placeholder="Ingresa tu apellido"><br>
+            </label><br>
+        </div>
+        
+        <fieldset>
+            <label for="ciudad">
+                Ciudad
+            <select name="" id="ciudad"required>
+                <option value="Bogotá">Bogotá</option>
+                <option value="Cali">Cali</option>
+                <option value="Cartagena">Cartagena</option>
+                <option value="Bogota">Bogota</option>
+            </labelfor><br>
+            </select><br>
+        <label for="pais">
+            Pais
+            <select name="" id="pais">
+            <option value="Colombia">Colombia</option>
+        </label>
+        <br>
+        </fieldset>
+        </select>
+        <br>
+        <label for="genero">Genero:</label> <br>
+        <input type="radio" name="genero">Masculino</input>
+        <input type="radio" name="genero">Femenino</input>
+        <input type="radio" name="genero">Otro</input>
+        <br>
+        <label for="telefono">Telefono</label><br>
+        <input type="number" id="telefono" placeholder="Ingresa tu Numero de Telefono"> <br> <br>
+    </section>
+
+    <section>
+        <label for="carrera"><b>A que carrera deseas Inscribirte?</b></label><br>
+        <select name="" id="carrera"required>
+            <option value="FE">Frontend</option>
+            <option value="BE">Backend</option>
+        </select>
+    </section>
+        <section>
+            <br><label for="modalidad"required>Por favor eliga una modalidad:</label><br>
+            
+            <input type="radio" name="modalidad">Presencial</input>
+            <input type="radio" name="modalidad">Virtual</input> <br>
+
+            <label for="trabajo">Esta trabajando actualmente?</label> <br>
+
+            <input type="radio" name="trabajo">si</input>
+            <input type="radio" name="trabajo">no</input><br><br>
+
+            <input type="submit" value="Enviar"/>      
+            <input type="reset" value="Refrescar"/><br>
+        
+        </section>
+        <footer>
+            <p>Para accedar a los cursos ingresa a <a href="https://es.nodoeafit.com/" target="_blank">https://es.nodoeafit.com/</a></p>
+        </footer>
+      </form>
+    </main>
+    
+</body>
+</html>
