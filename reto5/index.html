@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Reto 5 del curso front-end" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Reto 5</title>
+  </head>
+  <body>
+    <main>
+      <h1>Calculadora de Área, Perímetro y Diagonal</h1>
+      <section>
+        <label for="base">Base en centímetros</label>
+        <input id="base" type="number" placeholder="Escribe la base" required />
+        <label for="altura">Altura en centímetros</label>
+        <input id="altura" type="number" placeholder="Escribe la altura" required />
+        <button id="enviar">Calcular</button>
+      </section>
+      <section>
+        <label for="resultB">Resultado Área</label>
+        <input id="result" type="number" readonly />
+        <label for="result">Resultado Perímetro</label>
+        <input id="resultP" type="number" readonly />
+        <label for="result">Resultado Diagonal</label>
+        <input id="resultD" type="number" readonly />
+      </section>
+    </main>
+    <script src="./js/logic.js"></script>
+  </body>
+</html>
