@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.galeria div {
+    background-color: #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.galeria img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.row {
+    grid-row: span 2;
+}
+.column {
+    grid-column: span 2;
+}
