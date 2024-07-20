@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Punto 1</title>
+    <script src="./logic.js"></script>
+  </head>
+  <body>
+    <h1>Punto #1</h1>
+    <form>
+      <label for="sec">Tiempo en segundos #1</label><br />
+      <input type="number" id="segundos" /><br />
+      <label for="promedio">Tiempo en segundos #2</label><br />
+      <input type="number" id="segundos" /><br />
+      <label for="promedio">Tiempo en segundos #3</label><br />
+      <input type="number" id="segundos" /><br />
+      <label for="promedio">Tiempo en segundos #4</label><br />
+      <input type="number" id="segundos" /><br />
+      <label for="promedio">Tiempo en segundos #5</label><br />
+      <input type="number" id="segundos" /><br />
+      <label for="promedio">Promedio en minutos</label><br />
+      <input type="number" id="promedio" readonly />
+      <input type="button" value="Calcular" onclick="calcularPromedio()" />
+    </form>
+
+    <form>
+      <h1>Punto #2</h1>
+      <label for="baseMayor">Base Mayor (metros):</label><br />
+      <input type="number" id="baseMayor" /><br />
+      <label for="baseMenor">Base Menor (metros):</label><br />
+      <input type="number" id="baseMenor" /><br />
+      <label for="altura">Altura (metros):</label><br />
+      <input type="number" id="altura" /><br />
+      <input type="button" value="Calcular" onclick="calcularLitros()" />
+      <p id="resultadoPesticida"></p>
+      <p id="resultadoCerca"></p>
+    </form>
+
+    <form>
+      <h1>Cálculo de ladrillos para una pared</h1>
+      <label for="alturaPared">Altura de la pared (metros):</label><br />
+      <input type="number" id="alturaPared" /><br />
+      <label for="anchoPared">Ancho de la pared (metros):</label><br />
+      <input type="number" id="anchoPared" /><br />
+      <label for="alturaLadrillo">Altura de un ladrillo (metros):</label><br />
+      <input type="number" id="alturaLadrillo" /><br />
+      <label for="anchoLadrillo">Ancho de un ladrillo (metros):</label><br />
+      <input type="number" id="anchoLadrillo" /><br />
+      <input type="button" value="Calcular" onclick="calcularLadrillos()" />
+      <p id="resultadoLadrillos"></p>
+    </form>
+
+    <form>
+      <h1>Índice de Masa Corporal (IMC)</h1>
+      <label for="altura">Altura (m):</label><br />
+      <input type="number" id="alt" /><br />
+      <label for="peso">Peso (kg):</label><br />
+      <input type="number" id="peso" /><br />
+      <input type="button" value="Calcular IMC" onclick="calcularIMC()" />
+      <p id="resultadoIMC"></p>
+      <p id="resultadoRango"></p>
+    </form>
+  </body>
+</html>
